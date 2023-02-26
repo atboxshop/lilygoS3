@@ -78,9 +78,9 @@ int32_t testText() {
   uint32_t start = micros_start();
   gfx->setCursor(0, 0);
 
-  gfx->setTextSize(1);
+  gfx->setTextSize(3);
   gfx->setTextColor(WHITE, BLACK);
-  gfx->println(F("Hello World!"));
+  gfx->println(F("Hello SUSHI!!"));
 
   gfx->setTextSize(2);
   gfx->setTextColor(gfx->color565(0xff, 0x00, 0x00));
@@ -400,7 +400,7 @@ void setup() {
   gfx->begin();
   gfx->setRotation(1);
   gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)img_logo, 320, 172);
-  delay(2000);
+  delay(5000);
 
   w = gfx->width();
   h = gfx->height();
