@@ -1,4 +1,5 @@
 #include <Adafruit_NeoPixel.h>
+#include <TFT_eSPI.h>
  
 // the data pin for the NeoPixels
 int neoPixelPin = 48;
